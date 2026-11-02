@@ -1,0 +1,151 @@
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: Nombre: Stock: Precio (ej. 25.50): Producto registrado.
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: Nombre: Stock: Precio (ej. 25.50): Producto registrado.
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: Nombre: Stock: Precio (ej. 25.50): Producto registrado.
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: Nombre: Stock: Precio (ej. 25.50): Producto registrado.
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: Nombre: Stock: Precio (ej. 25.50): Producto registrado.
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: Nombre: Stock: Precio (ej. 25.50): Producto registrado.
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: Nombre: Stock: Precio (ej. 25.50): Producto registrado.
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: PRODUCTO                     STOCK       PRECIO
+Aceite                           5        40.00
+Arroz                           20        18.50
+Frijol                           8        32.00
+Leche                           10        25.00
+Miel                            11        90.00
+Pan                             30         4.00
+Queso                            6        75.00
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: Nombre a buscar: PRODUCTO                     STOCK       PRECIO
+Miel                            11        90.00
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: Nombre a eliminar: Producto eliminado.
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: PRODUCTO                     STOCK       PRECIO
+Arroz                           20        18.50
+Frijol                           8        32.00
+Leche                           10        25.00
+Miel                            11        90.00
+Pan                             30         4.00
+Queso                            6        75.00
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: Nombre a eliminar: Producto eliminado.
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: PRODUCTO                     STOCK       PRECIO
+Frijol                           8        32.00
+Leche                           10        25.00
+Miel                            11        90.00
+Pan                             30         4.00
+Queso                            6        75.00
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: Nombre a eliminar: Producto eliminado.
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: PRODUCTO                     STOCK       PRECIO
+Frijol                           8        32.00
+Miel                            11        90.00
+Pan                             30         4.00
+Queso                            6        75.00
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: Programa terminado.

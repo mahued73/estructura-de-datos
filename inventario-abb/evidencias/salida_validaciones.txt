@@ -1,0 +1,89 @@
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: El inventario está vacío.
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: Elige una opción del 1 al 5.
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: Nombre: Stock: Precio (ej. 25.50): El nombre no puede estar vacío.
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: Nombre: Stock: Dato numérico inválido. Stock: entero; precio: número sin separador de miles. No se registró el producto.
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: Nombre: Stock: Precio (ej. 25.50): El stock no puede ser negativo.
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: Nombre: Stock: Precio (ej. 25.50): El precio debe ser finito y no negativo.
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: Nombre: Stock: Precio (ej. 25.50): Producto registrado.
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: Nombre: Stock: Precio (ej. 25.50): Ese nombre ya existe; no se modificó el producto.
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: Nombre a buscar: PRODUCTO                     STOCK       PRECIO
+X                                1         2.50
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: Nombre a eliminar: Producto no encontrado.
+
+=== INVENTARIO CON ABB ===
+1. Registrar producto
+2. Buscar por nombre
+3. Eliminar producto
+4. Mostrar inventario (InOrder)
+5. Salir
+Opción: Programa terminado.
