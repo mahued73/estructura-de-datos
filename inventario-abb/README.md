@@ -18,7 +18,7 @@ Reporte: [PDF con explicación y evidencias](reporte/Estructura_de_Datos_Proyect
 
 ## Ejecutar
 
-Requiere JDK 17 o posterior. Se compiló y probó con JDK 21. No necesita Maven ni bibliotecas externas. Desde la carpeta `InventarioABB`:
+Requiere JDK 17 o posterior. Se compiló y probó con JDK 21. No necesita Maven ni bibliotecas externas. Desde la carpeta del proyecto (`inventario-abb` en este repositorio):
 
 ```text
 javac -encoding UTF-8 -d out src/Producto.java src/Nodo.java src/ArbolBinarioBusqueda.java src/Main.java
@@ -39,7 +39,7 @@ El menú permite registrar, buscar, eliminar, mostrar el inventario por InOrder 
 
 ## Adaptación del ABB
 
-Las comparaciones de enteros se sustituyeron por `nombre.compareTo(actual.producto.getNombre())`. Un resultado negativo conduce a la izquierda; uno positivo, a la derecha; cero identifica el mismo nombre y evita duplicados. Se quitan espacios al principio y al final. `compareTo` distingue mayúsculas, minúsculas y acentos: todos los nombres de la demostración empiezan con mayúscula para mantener una comparación consistente. Se conserva el método solicitado por el profesor; no se aplica una ordenación lingüística adicional.
+Las comparaciones de enteros se sustituyeron por `nombre.compareTo(actual.producto.getNombre())`. Un resultado negativo conduce a la izquierda; uno positivo, a la derecha; cero identifica el mismo nombre y evita duplicados. Se quitan espacios al principio y al final. `compareTo` distingue mayúsculas, minúsculas y acentos: todos los nombres de la demostración empiezan con mayúscula para mantener una comparación consistente. El orden del inventario sigue esta comparación de cadenas.
 
 En la eliminación se conservan los tres casos del código de clase. Si el nodo tiene dos hijos, `obtenerMinimo(actual.der)` localiza el sucesor inorden. Se reemplaza el producto completo y después se elimina la aparición original del sucesor. Así no se mezclan el nombre de un producto con las existencias o el precio de otro.
 
@@ -52,7 +52,7 @@ javac -encoding UTF-8 -d out src/Producto.java src/Nodo.java src/ArbolBinarioBus
 java -cp out PruebasInventario
 ```
 
-Resultado real de la ejecución:
+Resultado de las pruebas:
 
 ```text
 CORRECTO: 52 verificaciones funcionales.
@@ -64,7 +64,7 @@ El menú también se ejecutó con la entrada guardada en `evidencias/entrada_dem
 
 ## Demostración realizada en consola
 
-Registrar en este orden:
+Los productos se registraron en este orden:
 
 | Nombre | Stock | Precio |
 | --- | ---: | ---: |
@@ -76,10 +76,10 @@ Registrar en este orden:
 | Miel | 11 | 90.00 |
 | Queso | 6 | 75.00 |
 
-1. Mostrar el inventario y buscar Miel.
-2. Eliminar **Aceite**, que es una hoja; mostrar el inventario.
-3. Eliminar **Arroz**, que ahora tiene solo el hijo Frijol; mostrar el inventario.
-4. Eliminar **Leche**, que es la raíz con dos hijos; el sucesor es Miel; mostrar el inventario.
+1. Se mostró el inventario y se buscó Miel.
+2. Se eliminó **Aceite**, una hoja, y se consultó el inventario.
+3. Se eliminó **Arroz**, que después del primer borrado tenía solo el hijo Frijol.
+4. Se eliminó **Leche**, la raíz con dos hijos. Miel ocupó su lugar como sucesor inorden y se mostró el inventario final.
 
 Después de esos tres borrados quedan Frijol, Miel, Pan y Queso. Miel conserva stock 11 y precio 90.00. El orden de las operaciones importa para demostrar los casos descritos.
 
@@ -96,8 +96,4 @@ Después de esos tres borrados quedan Frijol, Miel, Pan y Queso. Miel conserva s
 | Eliminar un nodo con dos hijos | [Leche](evidencias/19_eliminacion_leche.png), [resultado](evidencias/20_inventario_final.png) |
 | Salir | [Cierre del programa](evidencias/21_salida.png) |
 
-Los archivos de imagen se conservan tal como se recibieron. El reporte explica por qué cada borrado corresponde al caso indicado.
-
-## Entrega individual
-
-El equipo debe revisar conjuntamente el proyecto. Cada integrante entrega su propio reporte PDF en Teams, como indica la consigna. La publicación del repositorio y la preparación del reporte no realizan esa entrega en la plataforma.
+Las capturas muestran la ejecución en consola. En el reporte se explica cada caso de eliminación y se compara el inventario antes y después de los borrados.
