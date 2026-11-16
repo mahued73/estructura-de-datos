@@ -1,6 +1,6 @@
 # Mezcla Directa
 
-Actividad 1 de la Unidad 5 de Estructura de Datos. El programa lee los enteros de `f1.txt` y `f2.txt`, mezcla por pares sus bloques ya ordenados y escribe el resultado en `f3.txt`. La demostración usa un bloque de 20 números de dos dígitos en cada archivo de entrada. Los valores se generaron al azar y se ordenaron dentro de cada bloque antes de ejecutar la mezcla.
+Actividad 1 de la Unidad 5 de Estructura de Datos. Cada entrada contiene 20 enteros distintos elegidos al azar entre 10 y 99, escritos en orden aleatorio. El programa empieza con bloques de un elemento, los intercala y aumenta el tamaño de los bloques en cada pasada. Cuando queda un único bloque ordenado, guarda los 40 números en f3.txt.
 
 [Ver el reporte de la práctica en PDF](reporte/Estructura_de_Datos_Actividad_01_Unidad_05_20261118_AhuedCortes_M.pdf)
 
@@ -34,15 +34,13 @@ java -cp out mezcladirecta.MezclaDirectaPractica
 Mezcla completada. Se generó f3.txt.
 ```
 
-El archivo f3.txt contiene los 40 números de ambas entradas en orden ascendente. El programa escribe un número por renglón. Aquí se agrupan de diez en diez para facilitar la lectura.
+El archivo f3.txt contiene los 40 números de ambas entradas en orden ascendente. El programa escribe un número por renglón. La lista se agrupa de diez en diez para facilitar la lectura.
 
 ```text
-10 10 12 15 16 16 19 22 23 28
-31 33 36 36 37 37 38 39 39 42
-45 50 53 55 57 58 59 64 64 69
-73 73 76 79 81 82 84 93 96 99
+13 14 17 20 23 24 26 28 31 32
+34 37 39 41 44 47 50 52 53 58
+60 62 63 64 66 67 68 69 72 77
+81 82 86 89 90 91 92 95 97 98
 ```
-
-Cada archivo de entrada lleva un entero por renglón. Para probar otro tamaño de bloque, cambia el valor de `L` en la llamada de `main` y ordena de menor a mayor los valores de cada bloque de entrada. El último bloque puede tener menos de `L` elementos. Una pasada garantiza el orden dentro de cada bloque combinado. Para ordenar un archivo completo con varios bloques se requieren más pasadas con bloques de mayor tamaño.
 
 [Ver la captura de los tres archivos en Visual Studio Code](evidencias/Archivos_F1_F2_F3_VSCode.jpg).
