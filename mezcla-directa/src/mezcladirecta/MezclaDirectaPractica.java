@@ -59,7 +59,7 @@ public class MezclaDirectaPractica {
 
     public static void main(String[] args) {
         try {
-            intercalarBloques("f1.txt", "f2.txt", "f3.txt", 1);
+            intercalarBloques("f1.txt", "f2.txt", "f3.txt", 20);
             System.out.println("Mezcla completada. Se generó f3.txt.");
         } catch (IOException e) {
             System.err.println("Error de lectura o escritura: " + e.getMessage());

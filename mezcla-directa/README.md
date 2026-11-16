@@ -1,6 +1,6 @@
 # Mezcla Directa
 
-Actividad 1 de la Unidad 5 de Estructura de Datos. El programa lee los enteros de `f1.txt` y `f2.txt`, mezcla por pares sus bloques ya ordenados y escribe el resultado en `f3.txt`. La demostración usa bloques de un elemento.
+Actividad 1 de la Unidad 5 de Estructura de Datos. El programa lee los enteros de `f1.txt` y `f2.txt`, mezcla por pares sus bloques ya ordenados y escribe el resultado en `f3.txt`. La demostración usa un bloque de 20 números de dos dígitos en cada archivo de entrada. Los valores se generaron al azar y se ordenaron dentro de cada bloque antes de ejecutar la mezcla.
 
 [Ver el reporte de la práctica en PDF](reporte/Estructura_de_Datos_Actividad_01_Unidad_05_20261118_AhuedCortes_M.pdf)
 
@@ -34,11 +34,15 @@ java -cp out mezcladirecta.MezclaDirectaPractica
 Mezcla completada. Se generó f3.txt.
 ```
 
-Con `45` en `f1.txt` y `12` en `f2.txt`, el archivo generado queda así:
+El archivo f3.txt contiene los 40 números de ambas entradas en orden ascendente. El programa escribe un número por renglón. Aquí se agrupan de diez en diez para facilitar la lectura.
 
 ```text
-12
-45
+10 10 12 15 16 16 19 22 23 28
+31 33 36 36 37 37 38 39 39 42
+45 50 53 55 57 58 59 64 64 69
+73 73 76 79 81 82 84 93 96 99
 ```
 
-Cada archivo de entrada lleva un entero por renglón. Para probar bloques mayores, cambia el valor de `L` en la llamada de `main` y ordena de menor a mayor los valores de cada bloque de entrada. El último bloque puede tener menos de `L` elementos. Una pasada garantiza el orden dentro de cada bloque combinado. Para ordenar un archivo completo con varios bloques se requieren más pasadas con bloques de mayor tamaño.
+Cada archivo de entrada lleva un entero por renglón. Para probar otro tamaño de bloque, cambia el valor de `L` en la llamada de `main` y ordena de menor a mayor los valores de cada bloque de entrada. El último bloque puede tener menos de `L` elementos. Una pasada garantiza el orden dentro de cada bloque combinado. Para ordenar un archivo completo con varios bloques se requieren más pasadas con bloques de mayor tamaño.
+
+[Ver la captura de los tres archivos en Visual Studio Code](evidencias/Archivos_F1_F2_F3_VSCode.jpg).
