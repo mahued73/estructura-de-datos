@@ -2,6 +2,10 @@
 
 Práctica de la unidad 5 de Estructura de Datos. El programa muestra un arreglo de enteros, lo ordena de menor a mayor con el método burbuja y vuelve a imprimirlo.
 
+## Reporte de la práctica
+
+[Ver el reporte en PDF](reporte/Estructura_de_Datos_Tarea_01_Unidad_05_20261115_AhuedCortes_M.pdf). Incluye el marco teórico, la implementación, la captura de consola y la conclusión.
+
 ## Clonar el repositorio
 
 Abre PowerShell en la carpeta donde quieras guardar el repositorio. Necesitas Git y un JDK con java y javac disponibles. La práctica se verificó con JDK 21.0.11.
