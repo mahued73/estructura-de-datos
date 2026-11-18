@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "Metodos_de_ordenamiento.MainQuick",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "vmArgs": "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8"
+        },
+        {
+            "type": "java",
+            "name": "ShellSort",
+            "request": "launch",
+            "mainClass": "Metodos_de_ordenamiento.MainShell",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "vmArgs": "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8"
+        }
+    ]
+}

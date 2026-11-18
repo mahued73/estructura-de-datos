@@ -9,3 +9,5 @@ Prácticas de Estructura de Datos.
 - [Ordenamiento por burbuja](ordenamiento-burbuja/): Tarea 1 de la unidad 5. Incluye código Java, instrucciones de ejecución y [reporte en PDF](ordenamiento-burbuja/reporte/Estructura_de_Datos_Tarea_01_Unidad_05_20261115_AhuedCortes_M.pdf).
 
 - [Mezcla Directa](mezcla-directa/): Actividad 1 de la unidad 5. Incluye el proyecto Java, los archivos auxiliares y el [reporte en PDF](mezcla-directa/reporte/Estructura_de_Datos_Actividad_01_Unidad_05_20261118_AhuedCortes_M.pdf).
+
+- [QuickSort y ShellSort](quicksort-shellsort/): Tarea 2 de la unidad 5. Incluye código Java, comparativa, capturas de ejecución y [reporte en PDF](quicksort-shellsort/reporte/Estructura_de_Datos_Tarea_02_Unidad_05_20261122_AhuedCortes_M.pdf).
